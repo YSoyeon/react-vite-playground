@@ -18,9 +18,9 @@ jobs:
       - name: PWD
         run: pwd
       - name: list file
-        run: ls -alh /home/runner/work/react-vite-playground/
+        run: ls -alh /home/runner/work/react-vite-playground/react-vite-playground/
       - name: change directory
-        run: cd /home/runner/work/react-vite-playground/
+        run: cd /home/runner/work/react-vite-playground/react-vite-playground/
       - name: Check NPM Version
         run: npm --version
       - name: Install Packages
