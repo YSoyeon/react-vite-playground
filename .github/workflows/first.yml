@@ -23,7 +23,6 @@ jobs:
         run: cd /home/runner/work/react-vite-playground/react-vite-playground/
       - name: Check NPM Version
         run: npm --version
-      - name: npm init
-        run: npm init
       - name: Install Packages
+        uses: actions/checkout@v3
         run: npm i
