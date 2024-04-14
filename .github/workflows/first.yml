@@ -9,7 +9,7 @@ jobs:
     name: PWD & LS
     runs-on: ubuntu-latest
     steps:
-      - name: Print working directory
+      - name: PWD
         run: pwd
-      - name: List files
+      - name: Check NPM
         run: npm
