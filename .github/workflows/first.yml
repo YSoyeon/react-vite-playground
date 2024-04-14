@@ -13,3 +13,5 @@ jobs:
           node-version: 20.10
       - name: Install Packages
         run: npm i
+      - name: Build
+        run: npm run build
