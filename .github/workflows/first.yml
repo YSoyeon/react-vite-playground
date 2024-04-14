@@ -13,3 +13,5 @@ jobs:
         run: pwd
       - name: Check NPM Version
         run: npm --version
+      - name: Install Packages
+        run: npm ci
