@@ -7,6 +7,8 @@ function App() {
     <>
       <span>git commit test1</span>
       <span>git commit test6</span>
+      <span>git commit test11</span>
+      <span>git commit test12</span>
       <AddFile1 />
       <AddFile2 />
     </>
